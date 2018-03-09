@@ -30,8 +30,10 @@ until finished
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
-
-The tests are written both in unittest and pytest.
+The tests are written using both *unittest* and *pytest*.
+You can run each test individually or all of them running the following commands in the root directory:
+- *unittest:* `python -m unittest discover -p "*_unittest_test.py"`
+- *pytest* `python -m pytest`
 
 ### Break down into end to end tests
 
