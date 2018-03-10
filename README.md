@@ -1,65 +1,38 @@
-# My daily python3 workout
+# My daily python3 workout 💪
 
-Set of incomplete excercises for python3
+Set of incomplete files used to practice python3. Tests are included 🎉
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The goal of these exercises is to make you/me remember the basics of python3 using repetition, lots of it.
+
+My suggestion is to complete all the files once a day and run the tests until your code passes them all.
+
+It may seem like a hard and time consuming task, but it should get easier the more you do it.
+
+Just keep in mind this is not intended to learn python3, nor it provides all the tools python3 has to give. This is just practice.
 
 ### Prerequisites
 
 - Python3 installed
-- pytest (optional)
+- pytest (kind of optional)
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Apart from python3 you shouldn't need to install anything else. Although I recommend installing `pytest` using something like `pipenv` since one of the exercises consists in implementing a couple of tests using this module.
 
 ## Running the tests
-The tests are written using both *unittest* and *pytest*.
-You can run each test individually or all of them running the following commands in the root directory:
+In order to test your code I implemented tests both in *unittest* and *pytest*.
+
+There's no real advantage of one over the other in this project, since both modules test the code in the same way, I just wanted to practice.
+
+You can run each test individually or all of them by running the following commands in the root directory of this repository:
 - *unittest:* `python -m unittest discover -p "*_unittest_test.py"`
 - *pytest* `python -m pytest`
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* ❤
 
 ## Contributing
 
@@ -69,8 +42,6 @@ Feel free to fork and make pull requests to this repository.
 
 * **Marco Nila** - *Initial work* - [sainoba](https://github.com/sainoba)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -78,4 +49,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * James Powell
-* Dan Bader 
+* Dan Bader
