@@ -1,6 +1,6 @@
-# My daily python3 workout 💪
+# My daily python 3.6 workout 💪
 
-Set of incomplete files used to practice python3. Tests are included 🎉
+Set of incomplete files used to practice python 3.6. Tests are included 🎉
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ Just keep in mind this is not intended to learn python3, nor it provides all the
 
 ### Prerequisites
 
-- Python3 installed
+- Latest version of python 3
 - pytest (kind of optional)
 
 ### Installing
