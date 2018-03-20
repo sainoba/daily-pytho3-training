@@ -1,7 +1,12 @@
 import os
 import unittest
-from .context_manager import call_class_context_manager
-from .context_manager import call_function_context_manager
+
+try:
+    from context_manager import call_class_context_manager
+    from context_manager import call_function_context_manager
+except Exception as e:
+    from .context_manager import call_class_context_manager
+    from .context_manager import call_function_context_manager
 
 FILE_NAME="hi.txt"
 TEXT="hello"

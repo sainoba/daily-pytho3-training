@@ -3,7 +3,10 @@ from io import StringIO
 import os
 import unittest
 from unittest import mock
-from decorator  import my_slow_operation
+try:
+    from decorator_exercise.decorator  import my_slow_operation
+except ImportError:
+    from .decorator_exercise.decorator  import my_slow_operation
 
 SECONDS_TO_WAIT = 3
 
