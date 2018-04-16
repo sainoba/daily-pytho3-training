@@ -3,7 +3,6 @@
 import unittest
 
 from .library import Base
-from .user import Derived
 
 
 
@@ -16,4 +15,5 @@ class TestContextManager(unittest.TestCase):
 
     def test_derived(self):
         with self.assertRaises(NotImplementedError):
+            from .user import Derived
             Derived()
