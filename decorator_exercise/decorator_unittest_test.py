@@ -1,12 +1,9 @@
 import time
 from io import StringIO
-import os
 import unittest
 from unittest import mock
-try:
-    from decorator_exercise.decorator  import my_slow_operation
-except ImportError:
-    from .decorator_exercise.decorator  import my_slow_operation
+
+from .decorator  import my_slow_operation
 
 SECONDS_TO_WAIT = 3
 
