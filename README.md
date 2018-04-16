@@ -26,9 +26,13 @@ In order to test your code I implemented tests both in *unittest* and *pytest*.
 
 There's no real advantage of one over the other in this project, since both modules test the code in the same way, I just wanted to practice.
 
-You can run each test individually or all of them by running the following commands in the root directory of this repository:
+You can run every test from the root directory:
+- *pytest:* `python3 -m pytest`
 - *unittest:* `python3 -m unittest discover -p "*_unittest_test.py"`
-- *pytest* `python3 -m pytest`
+
+Or you can test each exercise individually, just cd into its directory and run:
+- *pytest:* `python3 -m pytest`
+- *unittest:* `python3 -m unittest discover -p -t .. "*_unittest_test.py"`
 
 ## Built With
 
