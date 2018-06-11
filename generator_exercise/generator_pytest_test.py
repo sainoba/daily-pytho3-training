@@ -4,9 +4,9 @@ import pytest
 from .generator  import get_first_n_integers
 
 @pytest.mark.parametrize("number", [
-    (0,),
-    (123456789,),
-    (111222333444555666777888,),
+    0,
+    123456789,
+    111222333444555666777888,
 ])
 def test_get_first_n_integers(number):
     gen = get_first_n_integers(number)
