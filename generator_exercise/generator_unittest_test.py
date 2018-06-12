@@ -6,8 +6,8 @@ class TestGenerator(unittest.TestCase):
     def test_0(self):
         self.try_with_number(0)
 
-    def test_111222333444555666777888(self):
-        self.try_with_number(111222333444555666777888)
+    def test_123456789(self):
+        self.try_with_number(123456789)
     
     def try_with_number(self, number):
         gen = get_first_n_integers(number)
